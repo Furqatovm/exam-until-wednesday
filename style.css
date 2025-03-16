@@ -278,6 +278,43 @@ footer{
         border: none;
         cursor: pointer;
     }
+    #wrapnav{
+        background-color: #74C69D;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 90%;
+    }
+    
+    .linklarr{
+        font-size: 22px;
+        border-bottom: 2px solid lightgray;
+        padding-bottom: 20px;
+    }
+    .login-btn{
+        padding: 13px 70px;
+        font-size: 22px;
+        background-color: #000000;
+        color: white;
+        border-radius: 5px;
+        border-color: transparent;
+    }
+
+    #closess{
+        position: absolute;
+        top: 10%;
+        left: 80%;
+        color: white;
+        font-size: 40px;
+    }
+
     
 }
 

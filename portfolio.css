@@ -221,4 +221,11 @@ footer{
         font-size: 16px;
         padding: 13px 50px;
     }
+    .footer-left > .footer-logos{
+        width: 100%;
+    }
+    .footer-img{
+        width: 100%;
+    }
+
 }

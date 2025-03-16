@@ -219,12 +219,9 @@ footer{
     flex-wrap: wrap;
 }
 
-
-
-.wrapper-header{
-    position: relative;
+#wrapnav{
+    display: none;
 }
-
 
 @media (max-width: 768px){
     nav{

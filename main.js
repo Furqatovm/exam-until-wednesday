@@ -9,15 +9,16 @@ openNav.addEventListener("click", function(){
     openNav.style.display ="none";
     nav.style.display ="flex";
 
-    let login =document.createElement("a");
+    if(!document.querySelector(".login-btn")){
+        let login =document.createElement("a");
+        let loginTugma =document.createElement("button");
+        login.appendChild(loginTugma)
+        loginTugma.className ="login-btn";
+        loginTugma.textContent ="login";
+        nav.appendChild(login)
+    }
 
-    let loginTugma =document.createElement("button");
 
-    login.appendChild(loginTugma);
-    nav.appendChild(login);
-
-    loginTugma.className ="login-btn";
-    loginTugma.textContent ="login";
     closeNav.style.display ="block";
 
 })

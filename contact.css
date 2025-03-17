@@ -17,6 +17,12 @@ header{
     color: #FFFFFF;
 }
 
+.links{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .nav-child{
     font-size: 20px;
     color: #FFFFFF;
@@ -256,6 +262,11 @@ button{
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+
+    .wrapper-header{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 

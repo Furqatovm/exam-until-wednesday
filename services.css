@@ -164,6 +164,34 @@ footer{
 .footer-img{
     width: 100%;
 }
+
+.links:hover{
+    cursor: pointer;
+    color: #ffffff90;
+}
+
+button{
+    cursor: pointer;
+}
+.card-tugma:hover{
+    background-color: #000000ba;
+}
+
+.footer-logos:hover{
+    cursor: pointer;
+    opacity: 60%;
+}
+
+.nav-child:hover{
+    color: black;
+    border-color: #000000;
+}
+
+.login-btn:hover{
+    background-color: white;
+    color: #000000;
+}
+
 @media (max-width: 768px){
 
     #wrapnav{

@@ -27,6 +27,8 @@ header{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 nav{
     display: flex;
@@ -196,6 +198,10 @@ button{
 
     #wrapnav{
         display: none;
+    }
+    .wrapper-header{
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     
     #openn{

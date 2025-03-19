@@ -236,5 +236,8 @@ footer{
     .logo{
         width: 60%;
     }
+    .wrapper-hero{
+        padding-top: 30px;
+    }
 
 }

@@ -275,6 +275,8 @@ footer{
 }
 
 
+
+
 @media (max-width: 768px){
     .wrapper-center{
         margin-top: 50px;
@@ -378,6 +380,9 @@ footer{
     .tugmaa{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .wrapper-btn{
+        padding-bottom: 20px;
     }
 
     

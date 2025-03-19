@@ -314,7 +314,19 @@ button{
         width: 60%;
     }
     .wrapper-header{
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
+    .pick-matn{
+        text-align: left;
+    }
+    .wrapper-cards{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    .card-1{
+        width: 100%;
+    }
+
+
 }

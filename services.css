@@ -310,4 +310,7 @@ button{
         height: auto;
         padding: 30px 1px;
     }
+    .logo{
+        width: 60%;
+    }
 }
